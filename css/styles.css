@@ -32,7 +32,7 @@ HEADER                   HEADER               HEADER
     font-family: 'Archivo Black', sans-serif;
 }
 
-.h1VakiriaNav{
+.h1ValkiriaNav{
     font-size: 3rem;
     color: #052551;
 }
@@ -278,6 +278,19 @@ SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
     height: 87rem;
 }
 
+.cajaLogoContacto{
+    width: 40rem;
+    height: 40rem;
+    text-align: center;
+    align-self: center;
+}
+
+.cajaContacto{
+    width: 50rem;
+    height: 30rem;
+}
+
+
 
 /*
 
@@ -312,6 +325,11 @@ FOOTER                     FOOTER                 FOOTER
     margin: 4rem;
 }
 
+.h3Footer{
+    font-size: 1.3rem;
+    color: #052551;
+    margin-top: 1.2rem;
+}
 
 /*
 
