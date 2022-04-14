@@ -188,6 +188,24 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
 
 /*
 
+SECTION SUCURSALES       SECTION SUCURSALES           SECTION SUCURSALES
+
+*/
+
+
+
+
+
+
+
+/*
+
+SECTION SUCURSALES       SECTION SUCURSALES           SECTION SUCURSALES
+
+*/
+
+/*
+
 SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
 
 */
@@ -233,6 +251,37 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
 /*
 
 SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
+
+*/
+
+/*
+
+SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
+
+*/
+
+
+
+.contenedorSection{
+    height: 87rem;
+    background: rgb(0,218,228);
+    background: linear-gradient(191deg, rgba(0,218,228,1) 0%, rgba(5,37,81,1) 100%);
+}
+
+.logoContacto{
+    height: 40rem;
+}
+
+.contenedorContacto{
+    justify-content: center;
+    align-items: center;
+    height: 87rem;
+}
+
+
+/*
+
+SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
 
 */
 
