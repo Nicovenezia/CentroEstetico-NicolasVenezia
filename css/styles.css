@@ -68,8 +68,6 @@ HEADER                   HEADER               HEADER
     width: 2rem;
 }
 
-
-
 /*
 
 HEADER                     HEADER             HEADER 
@@ -81,8 +79,6 @@ HEADER                     HEADER             HEADER
 SECTION INICIO         SECTION INICIO           SECTION INICIO 
 
 */
-
-
 
 #sectionIndex{
     background-image: url(../img/logo\ inicio.jpg);
@@ -115,8 +111,6 @@ SECTION INICIO         SECTION INICIO           SECTION INICIO
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 /*
 
 SECTION INICIO         SECTION INICIO           SECTION INICIO 
@@ -128,8 +122,6 @@ SECTION INICIO         SECTION INICIO           SECTION INICIO
 SECTION TIENDA        SECTION TIENDA           SECTION TIENDA 
 
 */
-
-
 
 .contenedorDepilacion{
     align-items: center;
@@ -173,12 +165,19 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
 
 .cajaProductos{
     text-align: center;
-    margin: 1.5rem;
-    width: 35rem;
+    margin: 2rem;
+    width: 36rem;
     height: 35rem;
 }
 
+.precioProductos{
+    font-size: 1.3rem;
+}
 
+.agergarProductos{
+    width: 7rem;
+    height: 3rem;
+}
 
 /*
 
@@ -192,11 +191,17 @@ SECTION SUCURSALES       SECTION SUCURSALES           SECTION SUCURSALES
 
 */
 
+.contenedorSucursales{
+    justify-content: center;
+    align-items: center;
+}
 
-
-
-
-
+.cajaSucursales{
+    width: 46rem;
+    margin: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
 
 /*
 
@@ -209,8 +214,6 @@ SECTION SUCURSALES       SECTION SUCURSALES           SECTION SUCURSALES
 SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
 
 */
-
-
 
 #imagenFondo{
     background-image: url(../img/logo\ nosotros.png);
@@ -246,8 +249,6 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
     margin-left: 10rem;
 }
 
-
-
 /*
 
 SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
@@ -260,8 +261,6 @@ SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
 
 */
 
-
-
 .contenedorSection{
     height: 87rem;
     background: rgb(0,218,228);
@@ -269,18 +268,18 @@ SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
 }
 
 .logoContacto{
-    height: 40rem;
+    height: auto;
+    width: 100%;
 }
 
 .contenedorContacto{
     justify-content: center;
     align-items: center;
-    height: 87rem;
+    height: 68rem;
 }
 
 .cajaLogoContacto{
-    width: 40rem;
-    height: 40rem;
+    width: 36rem;
     text-align: center;
     align-self: center;
 }
@@ -290,7 +289,14 @@ SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
     height: 30rem;
 }
 
+.cajaH2Contacto{
+    text-align: center;
+    color: #052551;
+}
 
+.h2Contatco{
+    font-size: 4rem;
+}
 
 /*
 
@@ -304,12 +310,12 @@ FOOTER                     FOOTER                 FOOTER
 
 */
 
-
 .contenedorFooter{
     align-items: center;
     justify-content: center;
     background: rgb(0,194,203);
     background: linear-gradient(90deg, rgba(0,194,203,1) 0%, rgba(0,146,255,1) 100%);
+    padding: 1rem;
 }
 
 .cajaLogoFooter{
@@ -320,15 +326,33 @@ FOOTER                     FOOTER                 FOOTER
     height: 5rem;
 }
 
-
-.contenedorTerminos{
-    margin: 4rem;
-}
-
 .h3Footer{
     font-size: 1.3rem;
     color: #052551;
-    margin-top: 1.2rem;
+    margin-left: 0.7rem;
+}
+
+.contenedorTerminos{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.cajaContactoFooter{
+    text-align: center;
+}
+
+.cajaLogoRedesFooter{
+    text-align: center;
+}
+
+.h2Contactanos{
+    font-size: 2rem;
+    font-family: 'Archivo Black', sans-serif;
+    color: #052551;
+}
+
+.pContacto{
+    font-size: 1.2rem;
 }
 
 /*
