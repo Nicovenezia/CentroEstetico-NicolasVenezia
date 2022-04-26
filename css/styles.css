@@ -8,9 +8,7 @@ html {
 }
 
 /*
-
 HEADER                   HEADER               HEADER 
-
 */
 
 .contenedorHeader{
@@ -48,16 +46,10 @@ HEADER                   HEADER               HEADER
 }
 
 .navbar-nav{
-    height: 6rem;
     align-items: center;
     font-size: 1.5rem;
-    color: #052551;
     font-family: 'Montserrat', sans-serif;
-}
-
-.navbarHeader{
-    width: 52rem;
-}
+}   
 
 .nav-link{
     margin: 1rem;
@@ -68,16 +60,26 @@ HEADER                   HEADER               HEADER
     width: 2rem;
 }
 
+.contenedorNav{
+    width: auto;
+    text-align: center;
+}
+
+.nav-link{
+    transition: background-color .4s;
+    color: #052551;
+}
+
+.nav-link:hover{
+    background-color: rgb(0, 217, 255);
+}
+
 /*
-
 HEADER                     HEADER             HEADER 
-
 */
 
 /*
-
 SECTION INICIO         SECTION INICIO           SECTION INICIO 
-
 */
 
 #sectionIndex{
@@ -85,7 +87,7 @@ SECTION INICIO         SECTION INICIO           SECTION INICIO
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 87rem;
+    height: 88rem;
     width: 100%;
     display: flex;
     align-items: flex-end;
@@ -94,7 +96,11 @@ SECTION INICIO         SECTION INICIO           SECTION INICIO
 }
 
 .contenedorDescuento{
-    width: 50%;
+    text-align: end;
+}
+
+.logoImgDescuento{
+    height: 60rem;
 }
 
 .h2Descuento{
@@ -112,15 +118,11 @@ SECTION INICIO         SECTION INICIO           SECTION INICIO
 }
 
 /*
-
 SECTION INICIO         SECTION INICIO           SECTION INICIO 
-
 */
 
 /*
-
 SECTION TIENDA        SECTION TIENDA           SECTION TIENDA 
-
 */
 
 .contenedorDepilacion{
@@ -177,18 +179,15 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
 .agergarProductos{
     width: 7rem;
     height: 3rem;
+    font-size: 1.1rem;
 }
 
 /*
-
 SECTION TIENDA        SECTION TIENDA           SECTION TIENDA 
-
 */
 
 /*
-
 SECTION SUCURSALES       SECTION SUCURSALES           SECTION SUCURSALES
-
 */
 
 .contenedorSucursales{
@@ -200,19 +199,19 @@ SECTION SUCURSALES       SECTION SUCURSALES           SECTION SUCURSALES
     width: 46rem;
     margin: 2rem;
     text-align: center;
-    font-size: 1.6rem;
+}
+
+.nombreSucursales{
+    margin-top: 0.6rem;
+    font-size: 1.7rem;
 }
 
 /*
-
 SECTION SUCURSALES       SECTION SUCURSALES           SECTION SUCURSALES
-
 */
 
 /*
-
 SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
-
 */
 
 #imagenFondo{
@@ -250,19 +249,15 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
 }
 
 /*
-
 SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
-
 */
 
 /*
-
 SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
-
 */
 
 .contenedorSection{
-    height: 87rem;
+    height: 88rem;
     background: rgb(0,218,228);
     background: linear-gradient(191deg, rgba(0,218,228,1) 0%, rgba(5,37,81,1) 100%);
 }
@@ -296,18 +291,15 @@ SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
 
 .h2Contatco{
     font-size: 4rem;
+    margin: 2rem;
 }
 
 /*
-
 SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
-
 */
 
 /*
-
 FOOTER                     FOOTER                 FOOTER 
-
 */
 
 .contenedorFooter{
@@ -320,6 +312,7 @@ FOOTER                     FOOTER                 FOOTER
 
 .cajaLogoFooter{
     text-align: end;
+    width: 8rem;
 }
 
 .logoFooter{
@@ -339,10 +332,12 @@ FOOTER                     FOOTER                 FOOTER
 
 .cajaContactoFooter{
     text-align: center;
+    width: 21rem;
 }
 
 .cajaLogoRedesFooter{
     text-align: center;
+    width: 22rem;
 }
 
 .h2Contactanos{
@@ -353,10 +348,16 @@ FOOTER                     FOOTER                 FOOTER
 
 .pContacto{
     font-size: 1.2rem;
+    background-color: white;
+    width: 18rem;
+    margin: 0% auto;
+    margin-bottom: 1rem;
+}
+
+.contenedorValkiriaFooter{
+    width: 14rem;
 }
 
 /*
-
 FOOTER                     FOOTER                 FOOTER 
-
 */
