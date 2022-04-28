@@ -64,7 +64,7 @@ HEADER                     HEADER             HEADER
 SECTION INICIO         SECTION INICIO           SECTION INICIO 
 */
 #sectionIndex {
-  background-image: url();
+  background-image: url(../img/logo\ inicio.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -171,7 +171,7 @@ SECTION SUCURSALES       SECTION SUCURSALES           SECTION SUCURSALES
 SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
 */
 #imagenFondo {
-  background-image: url();
+  background-image: url(../img/logo\ nosotros.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
