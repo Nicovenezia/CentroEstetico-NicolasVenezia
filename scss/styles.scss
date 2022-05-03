@@ -1,3 +1,5 @@
+@import "tipografia","colores","variables";
+
 body{
     margin: 0;
     padding: 0;
@@ -27,28 +29,24 @@ HEADER                   HEADER               HEADER
 
 .cajaValkiriaNav{
     width: 13rem;
-    font-family: 'Archivo Black', sans-serif;
+    font-family: $fuente-principal;
 }
 
 .h1ValkiriaNav{
     font-size: 3rem;
-    color: #052551;
+    color: $color-principal;
 }
 
 .h3Nav{
     font-size: 1.3rem;
-    color: #052551;
+    color: $color-principal;
     margin-top: 1.2rem;
-}
-
-.logoRedes{
-    height: 5rem;
 }
 
 .navbar-nav{
     align-items: center;
     font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $fuente-nav;
 }   
 
 .nav-link{
@@ -67,11 +65,11 @@ HEADER                   HEADER               HEADER
 
 .nav-link{
     transition: background-color .4s;
-    color: #052551;
+    color: $color-principal;
 }
 
 .nav-link:hover{
-    background-color: rgb(0, 217, 255);
+    background-color: #35FAD4;
 }
 
 /*
@@ -95,26 +93,8 @@ SECTION INICIO         SECTION INICIO           SECTION INICIO
     justify-content: center;
 }
 
-.contenedorDescuento{
-    text-align: end;
-}
-
 .logoImgDescuento{
     height: 60rem;
-}
-
-.h2Descuento{
-    text-align: center;
-    font-size: 14rem;
-    color: #052551;
-    font-family: 'Mr Dafoe', cursive;
-}
-
-.h3Descuento{
-    font-size: 4rem;
-    text-align: center;
-    color: #052551;
-    font-family: 'Montserrat', sans-serif;
 }
 
 /*
@@ -137,7 +117,7 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
 
 .h2Depilacion{
     font-size: 3rem;
-    color: #052551;
+    color: $color-principal;
 }
 
 .navbarBuscar{
@@ -226,7 +206,7 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
     justify-content: center;
 }
 
-.nosotros{
+.cajaNosotros{
     width: 50%;
     text-align: center;
     margin-left: 10rem;
@@ -237,6 +217,13 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
     font-family: 'Archivo Black', sans-serif;
     font-size: 3.5rem;
     color: #052551;
+}
+
+.h3Nosotros {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2.5rem;
+    color: #052551; 
+    margin-top: 2rem;
 }
 
 .nosotrosTexto{
@@ -258,8 +245,7 @@ SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
 
 .contenedorSection{
     height: 88rem;
-    background: rgb(0,218,228);
-    background: linear-gradient(191deg, rgba(0,218,228,1) 0%, rgba(5,37,81,1) 100%);
+    background: $color-fondo-contacto;
 }
 
 .logoContacto{
@@ -286,12 +272,24 @@ SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
 
 .cajaH2Contacto{
     text-align: center;
-    color: #052551;
+    color: $color-principal;
 }
 
 .h2Contatco{
     font-size: 4rem;
     margin: 2rem;
+}
+
+.form-label{
+    font-size: 1.5rem;
+}
+
+.form-control{
+    font-size: 1.2rem;
+}
+
+.btn-primary{
+    font-size: 1.3rem;
 }
 
 /*
@@ -305,8 +303,7 @@ FOOTER                     FOOTER                 FOOTER
 .contenedorFooter{
     align-items: center;
     justify-content: center;
-    background: rgb(0,194,203);
-    background: linear-gradient(90deg, rgba(0,194,203,1) 0%, rgba(0,146,255,1) 100%);
+    background: $color-footer;
     padding: 1rem;
 }
 
@@ -321,7 +318,7 @@ FOOTER                     FOOTER                 FOOTER
 
 .h3Footer{
     font-size: 1.3rem;
-    color: #052551;
+    color: $color-principal;
     margin-left: 0.7rem;
 }
 
@@ -343,7 +340,7 @@ FOOTER                     FOOTER                 FOOTER
 .h2Contactanos{
     font-size: 2rem;
     font-family: 'Archivo Black', sans-serif;
-    color: #052551;
+    color: $color-principal;
 }
 
 .pContacto{
@@ -356,6 +353,10 @@ FOOTER                     FOOTER                 FOOTER
 
 .contenedorValkiriaFooter{
     width: 14rem;
+}
+
+.logoRedes{
+    height: 5rem;
 }
 
 /*

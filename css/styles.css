@@ -21,7 +21,7 @@ HEADER                   HEADER               HEADER
 
 .cajaValkiriaNav {
   width: 13rem;
-  font-family: 'Archivo Black', sans-serif; }
+  font-family: "Archivo Black", sans-serif; }
 
 .h1ValkiriaNav {
   font-size: 3rem;
@@ -32,13 +32,10 @@ HEADER                   HEADER               HEADER
   color: #052551;
   margin-top: 1.2rem; }
 
-.logoRedes {
-  height: 5rem; }
-
 .navbar-nav {
   align-items: center;
   font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 .nav-link {
   margin: 1rem; }
@@ -55,7 +52,7 @@ HEADER                   HEADER               HEADER
   color: #052551; }
 
 .nav-link:hover {
-  background-color: #00d9ff; }
+  background-color: #35FAD4; }
 
 /*
 HEADER                     HEADER             HEADER 
@@ -64,7 +61,7 @@ HEADER                     HEADER             HEADER
 SECTION INICIO         SECTION INICIO           SECTION INICIO 
 */
 #sectionIndex {
-  background-image: url(../img/logo\ inicio.jpg);
+  background-image: url();
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -75,23 +72,8 @@ SECTION INICIO         SECTION INICIO           SECTION INICIO
   flex-direction: column;
   justify-content: center; }
 
-.contenedorDescuento {
-  text-align: end; }
-
 .logoImgDescuento {
   height: 60rem; }
-
-.h2Descuento {
-  text-align: center;
-  font-size: 14rem;
-  color: #052551;
-  font-family: 'Mr Dafoe', cursive; }
-
-.h3Descuento {
-  font-size: 4rem;
-  text-align: center;
-  color: #052551;
-  font-family: 'Montserrat', sans-serif; }
 
 /*
 SECTION INICIO         SECTION INICIO           SECTION INICIO 
@@ -171,7 +153,7 @@ SECTION SUCURSALES       SECTION SUCURSALES           SECTION SUCURSALES
 SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
 */
 #imagenFondo {
-  background-image: url(../img/logo\ nosotros.png);
+  background-image: url();
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -181,7 +163,7 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
   flex-direction: column;
   justify-content: center; }
 
-.nosotros {
+.cajaNosotros {
   width: 50%;
   text-align: center;
   margin-left: 10rem;
@@ -191,6 +173,12 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
   font-family: 'Archivo Black', sans-serif;
   font-size: 3.5rem;
   color: #052551; }
+
+.h3Nosotros {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2.5rem;
+  color: #052551;
+  margin-top: 2rem; }
 
 .nosotrosTexto {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -208,7 +196,6 @@ SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
 */
 .contenedorSection {
   height: 88rem;
-  background: #00dae4;
   background: linear-gradient(191deg, #00dae4 0%, #052551 100%); }
 
 .logoContacto {
@@ -237,6 +224,15 @@ SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
   font-size: 4rem;
   margin: 2rem; }
 
+.form-label {
+  font-size: 1.5rem; }
+
+.form-control {
+  font-size: 1.2rem; }
+
+.btn-primary {
+  font-size: 1.3rem; }
+
 /*
 SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
 */
@@ -246,7 +242,6 @@ FOOTER                     FOOTER                 FOOTER
 .contenedorFooter {
   align-items: center;
   justify-content: center;
-  background: #00c2cb;
   background: linear-gradient(90deg, #00c2cb 0%, #0092ff 100%);
   padding: 1rem; }
 
@@ -288,6 +283,9 @@ FOOTER                     FOOTER                 FOOTER
 
 .contenedorValkiriaFooter {
   width: 14rem; }
+
+.logoRedes {
+  height: 5rem; }
 
 /*
 FOOTER                     FOOTER                 FOOTER 
