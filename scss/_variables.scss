@@ -1,0 +1,14 @@
+/*estilo para las cajas de los productos*/
+$caja-productos: (
+    text-align: center,
+    margin: 2rem,
+    width: 36rem,
+    height: 35rem,
+);
+
+.cajaProductos{
+    text-align: map-get($caja-productos, text-align);
+    margin: map-get($caja-productos, margin);
+    width: map-get($caja-productos, width);
+    height: map-get($caja-productos, height);
+}

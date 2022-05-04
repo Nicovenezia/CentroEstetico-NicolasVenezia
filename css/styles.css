@@ -1,3 +1,15 @@
+/*tipografia para el nombre de la pagina*/
+/*tipografia para el nav*/
+/*color principal de la pagina*/
+/*color para el fondo del footer*/
+/*color para el fondo de contacto*/
+/*estilo para las cajas de los productos*/
+.cajaProductos {
+  text-align: center;
+  margin: 2rem;
+  width: 36rem;
+  height: 35rem; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -48,7 +60,7 @@ HEADER                   HEADER               HEADER
   text-align: center; }
 
 .nav-link {
-  transition: background-color .4s;
+  transition: background-color .2s;
   color: #052551; }
 
 .nav-link:hover {
@@ -69,11 +81,14 @@ SECTION INICIO         SECTION INICIO           SECTION INICIO
   width: 100%;
   display: flex;
   align-items: flex-end;
-  flex-direction: column;
-  justify-content: center; }
+  flex-direction: column; }
+
+.cajaDescuento {
+  width: 70rem; }
 
 .logoImgDescuento {
-  height: 60rem; }
+  height: auto;
+  width: 100%; }
 
 /*
 SECTION INICIO         SECTION INICIO           SECTION INICIO 
@@ -103,21 +118,12 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
   width: 34rem;
   height: 3rem; }
 
-.buscarTienda {
-  font-size: 1.5rem; }
-
 .imgProductos {
   height: 22rem;
   margin: 1rem; }
 
 .contenedorTienda {
   justify-content: center; }
-
-.cajaProductos {
-  text-align: center;
-  margin: 2rem;
-  width: 36rem;
-  height: 35rem; }
 
 .precioProductos {
   font-size: 1.3rem; }
@@ -170,18 +176,17 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
   margin-bottom: 3rem; }
 
 .h2Nosotros {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   font-size: 3.5rem;
   color: #052551; }
 
 .h3Nosotros {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   font-size: 2.5rem;
   color: #052551;
   margin-top: 2rem; }
 
 .nosotrosTexto {
-  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 2rem;
   background-size: 50%;
   width: 50%;
@@ -271,7 +276,7 @@ FOOTER                     FOOTER                 FOOTER
 
 .h2Contactanos {
   font-size: 2rem;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   color: #052551; }
 
 .pContacto {

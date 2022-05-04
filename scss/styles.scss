@@ -64,7 +64,7 @@ HEADER                   HEADER               HEADER
 }
 
 .nav-link{
-    transition: background-color .4s;
+    transition: background-color .2s;
     color: $color-principal;
 }
 
@@ -90,11 +90,15 @@ SECTION INICIO         SECTION INICIO           SECTION INICIO
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    justify-content: center;
+}
+
+.cajaDescuento{
+    width: 70rem;
 }
 
 .logoImgDescuento{
-    height: 60rem;
+    height: auto;
+    width: 100%;
 }
 
 /*
@@ -132,10 +136,6 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
     height: 3rem;
 }
 
-.buscarTienda{
-    font-size: 1.5rem;
-}
-
 .imgProductos{
     height: 22rem;
     margin: 1rem;
@@ -143,13 +143,6 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
 
 .contenedorTienda{
     justify-content: center;
-}
-
-.cajaProductos{
-    text-align: center;
-    margin: 2rem;
-    width: 36rem;
-    height: 35rem;
 }
 
 .precioProductos{
@@ -214,20 +207,19 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
 }
 
 .h2Nosotros{
-    font-family: 'Archivo Black', sans-serif;
+    font-family: $fuente-principal;
     font-size: 3.5rem;
-    color: #052551;
+    color: $color-principal;
 }
 
 .h3Nosotros {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: $fuente-principal;
     font-size: 2.5rem;
-    color: #052551; 
+    color: $color-principal; 
     margin-top: 2rem;
 }
 
 .nosotrosTexto{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2rem;
     background-size: 50%;
     width: 50%;
@@ -339,7 +331,7 @@ FOOTER                     FOOTER                 FOOTER
 
 .h2Contactanos{
     font-size: 2rem;
-    font-family: 'Archivo Black', sans-serif;
+    font-family: $fuente-principal;
     color: $color-principal;
 }
 
