@@ -16,6 +16,7 @@ HEADER                   HEADER               HEADER
 .contenedorHeader{
     align-items: center;
     justify-content: center;
+    background-color: turquoise;
 }
 
 .logo{
@@ -47,6 +48,7 @@ HEADER                   HEADER               HEADER
     align-items: center;
     font-size: 1.5rem;
     font-family: $fuente-nav;
+    color: black;
 }   
 
 .nav-link{
@@ -61,6 +63,7 @@ HEADER                   HEADER               HEADER
 .contenedorNav{
     width: auto;
     text-align: center;
+    justify-content: center;
 }
 
 .nav-link{
@@ -93,12 +96,12 @@ SECTION INICIO         SECTION INICIO           SECTION INICIO
 }
 
 .cajaDescuento{
-    width: 70rem;
+    max-width: 60rem;
+    margin-top: 10rem;
 }
 
 .logoImgDescuento{
-    height: auto;
-    width: 100%;
+    max-width: 100%;
 }
 
 /*
@@ -125,14 +128,14 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
 }
 
 .navbarBuscar{
-    width: 50rem;
+    width: 38rem;
     flex-wrap: inherit;
     align-items: center;
     justify-content: center;
 }
 
 .cajaBuscar{
-    width: 34rem;
+    width: 31rem;
     height: 3rem;
 }
 
@@ -169,7 +172,7 @@ SECTION SUCURSALES       SECTION SUCURSALES           SECTION SUCURSALES
 }
 
 .cajaSucursales{
-    width: 46rem;
+    width: 45rem;
     margin: 2rem;
     text-align: center;
 }
@@ -177,6 +180,10 @@ SECTION SUCURSALES       SECTION SUCURSALES           SECTION SUCURSALES
 .nombreSucursales{
     margin-top: 0.6rem;
     font-size: 1.7rem;
+}
+
+.mapaSucursales{
+    max-width: 100%;
 }
 
 /*
@@ -200,10 +207,10 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
 }
 
 .cajaNosotros{
-    width: 50%;
+    width: 74%;
     text-align: center;
-    margin-left: 10rem;
-    margin-bottom: 3rem;
+    margin-left: 5rem;
+    margin-bottom: 4rem;
 }
 
 .h2Nosotros{
@@ -221,10 +228,9 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
 
 .nosotrosTexto{
     font-size: 2rem;
-    background-size: 50%;
-    width: 50%;
+    width: 74%;
     text-align: center;
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 
 /*
@@ -241,7 +247,6 @@ SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
 }
 
 .logoContacto{
-    height: auto;
     width: 100%;
 }
 
@@ -252,7 +257,7 @@ SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
 }
 
 .cajaLogoContacto{
-    width: 36rem;
+    width: 40rem;
     text-align: center;
     align-self: center;
 }
@@ -306,6 +311,7 @@ FOOTER                     FOOTER                 FOOTER
 
 .logoFooter{
     height: 5rem;
+    margin-bottom: 2rem;
 }
 
 .h3Footer{
@@ -327,12 +333,14 @@ FOOTER                     FOOTER                 FOOTER
 .cajaLogoRedesFooter{
     text-align: center;
     width: 22rem;
+    margin-bottom: 2rem;
 }
 
 .h2Contactanos{
     font-size: 2rem;
     font-family: $fuente-principal;
     color: $color-principal;
+    margin-bottom: 2rem;
 }
 
 .pContacto{
@@ -340,11 +348,12 @@ FOOTER                     FOOTER                 FOOTER
     background-color: white;
     width: 18rem;
     margin: 0% auto;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .contenedorValkiriaFooter{
     width: 14rem;
+    margin-bottom: 2rem;
 }
 
 .logoRedes{
