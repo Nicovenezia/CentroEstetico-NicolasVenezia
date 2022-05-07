@@ -69,7 +69,7 @@
             </div>
     </header>
 
-    <section class="container-fluid contenedorSection">
+    <form class="container-fluid contenedorSection">
         <div class="row contenedorContacto">
             <div class="col-12 cajaH2Contacto">
                 <h2 class="h2Contatco">DEJA TU CONSULTA!</h2>
@@ -82,29 +82,29 @@
             <div class="col-3 cajaContacto">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresar nombre">
+                    <input required type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingresar nombre">
                 </div>
 
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresar apellido">
+                    <input required type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingresar apellido">
                 </div>
 
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Telefono</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresar telefono">
+                    <input required type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Ingresar telefono">
                 </div>
 
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Cuentanos" rows="3"></textarea>
+                    <textarea required class="form-control" id="exampleFormControlTextarea1" placeholder="Cuentanos" rows="3"></textarea>
                 </div>
                 
-                <button type="button" class="btn btn-primary">Enviar</button>
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit" class="btn btn-primary">Enviar</button>
             </div>
         </div>
-    </section>
-
+    </form>
+    
     <footer class="container-fluid">
         <div class="row contenedorFooter">
             <div class="col-1 cajaLogoFooter">

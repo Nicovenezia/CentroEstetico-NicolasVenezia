@@ -125,6 +125,7 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
 .h2Depilacion{
     font-size: 3rem;
     color: $color-principal;
+    font-weight: 700;
 }
 
 .navbarBuscar{
@@ -306,7 +307,7 @@ FOOTER                     FOOTER                 FOOTER
 
 .cajaLogoFooter{
     text-align: end;
-    width: 8rem;
+    width: 7rem;
 }
 
 .logoFooter{
@@ -342,14 +343,15 @@ FOOTER                     FOOTER                 FOOTER
     color: $color-principal;
     margin-bottom: 2rem;
     margin-top: 3rem;
+    letter-spacing: 3px;
 }
 
 .pContacto{
-    font-size: 1.2rem;
-    background-color: white;
+    font-size: 1.3rem;
     width: 18rem;
     margin: 0% auto;
     margin-bottom: 2rem;
+    color: white;
 }
 
 .contenedorValkiriaFooter{
@@ -361,6 +363,9 @@ FOOTER                     FOOTER                 FOOTER
     height: 5rem;
 }
 
+.logoRedes:hover{
+    filter: drop-shadow(0px 0px 10px #35FAD4);
+}
 /*
 FOOTER                     FOOTER                 FOOTER 
 */
