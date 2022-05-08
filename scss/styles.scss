@@ -17,10 +17,7 @@ HEADER                   HEADER               HEADER
     align-items: center;
     justify-content: center;
     background-color: turquoise;
-}
-
-.logo{
-    height: 5rem;
+    padding: 0.5rem;
 }
 
 .cajaLogoNav{
@@ -28,8 +25,12 @@ HEADER                   HEADER               HEADER
     align-self: center;
 }
 
+.logo{
+    height: 5rem;
+}
+
 .cajaValkiriaNav{
-    width: 13rem;
+    width: 14rem;
     font-family: $fuente-principal;
 }
 
@@ -38,10 +39,20 @@ HEADER                   HEADER               HEADER
     color: $color-principal;
 }
 
+@media screen and (max-width: 768px){  
+    .cajaH3Nav{
+        display: none;
+    }
+}
+
 .h3Nav{
     font-size: 1.3rem;
     color: $color-principal;
     margin-top: 1.2rem;
+}
+
+.navbar{
+    justify-content: center;
 }
 
 .navbar-nav{
@@ -51,28 +62,22 @@ HEADER                   HEADER               HEADER
     color: black;
 }   
 
-.nav-link{
-    margin: 1rem;
-}
-
-
-.h1Nav{
-    width: 2rem;
-}
-
-.contenedorNav{
-    width: auto;
-    text-align: center;
-    justify-content: center;
+.navbar-collapse{
+    justify-content: end;
 }
 
 .nav-link{
-    transition: background-color .2s;
+    transition: background-color .1s;
     color: $color-principal;
+    margin: 1rem;
 }
 
 .nav-link:hover{
     background-color: #35FAD4;
+}
+
+.botonNav{
+    background-color: snow;
 }
 
 /*
@@ -140,13 +145,13 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
     height: 3rem;
 }
 
+.contenedorTienda{
+    justify-content: center;
+}
+
 .imgProductos{
     height: 22rem;
     margin: 1rem;
-}
-
-.contenedorTienda{
-    justify-content: center;
 }
 
 .precioProductos{
@@ -242,31 +247,16 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
 SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
 */
 
-.contenedorSection{
+.contenedorSectionContacto{
     height: 88rem;
     background: $color-fondo-contacto;
-}
-
-.logoContacto{
-    width: 100%;
 }
 
 .contenedorContacto{
     justify-content: center;
     align-items: center;
     height: 68rem;
-}
-
-.cajaLogoContacto{
-    width: 40rem;
-    text-align: center;
-    align-self: center;
-}
-
-.cajaContacto{
-    width: 50rem;
-    height: 30rem;
-}
+} 
 
 .cajaH2Contacto{
     text-align: center;
@@ -276,6 +266,21 @@ SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
 .h2Contatco{
     font-size: 4rem;
     margin: 2rem;
+}
+
+.cajaLogoContacto{
+    width: 40rem;
+    text-align: center;
+    align-self: center;
+}
+
+.logoContacto{
+    width: 100%;
+}
+
+.cajaContacto{
+    width: 50rem;
+    height: 30rem;
 }
 
 .form-label{
@@ -307,11 +312,16 @@ FOOTER                     FOOTER                 FOOTER
 
 .cajaLogoFooter{
     text-align: end;
-    width: 7rem;
+    width: 6rem;
 }
 
 .logoFooter{
     height: 5rem;
+    margin-bottom: 2rem;
+}
+
+.contenedorValkiriaFooter{
+    width: 16rem;
     margin-bottom: 2rem;
 }
 
@@ -321,20 +331,14 @@ FOOTER                     FOOTER                 FOOTER
     margin-left: 0.7rem;
 }
 
-.contenedorTerminos{
-    text-align: center;
-    margin-top: 1rem;
-}
-
 .cajaContactoFooter{
     text-align: center;
     width: 21rem;
 }
 
-.cajaLogoRedesFooter{
+.contenedorTerminos{
     text-align: center;
-    width: 22rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .h2Contactanos{
@@ -354,8 +358,9 @@ FOOTER                     FOOTER                 FOOTER
     color: white;
 }
 
-.contenedorValkiriaFooter{
-    width: 14rem;
+.cajaLogoRedesFooter{
+    text-align: center;
+    width: 22rem;
     margin-bottom: 2rem;
 }
 
