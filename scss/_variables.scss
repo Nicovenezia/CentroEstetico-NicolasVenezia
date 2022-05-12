@@ -3,7 +3,7 @@ $caja-productos: (
     text-align: center,
     margin: 2rem,
     width: 36rem,
-    height: 35rem,
+    height: 38rem,
 );
 
 .cajaProductos{
@@ -12,3 +12,4 @@ $caja-productos: (
     width: map-get($caja-productos, width);
     height: map-get($caja-productos, height);
 }
+

@@ -154,8 +154,24 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
     margin: 1rem;
 }
 
+.cajaProductos:hover{
+    transform: scale(1.05)
+}
+
+.nombreProductos{
+    font-family: $fuente-nombre-producto
+}
+
 .precioProductos{
     font-size: 1.3rem;
+    font-family: $fuente-precio-producto;
+    text-shadow: 0 0 black;
+}
+
+.descuento{
+    text-decoration: line-through;
+    text-shadow: none;
+    color: rgb(112, 112, 112);
 }
 
 .agergarProductos{
@@ -233,10 +249,17 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
 }
 
 .nosotrosTexto{
-    font-size: 2rem;
     width: 74%;
     text-align: center;
     margin-left: 5rem;
+}
+
+.cajaNosotrosTexto{
+    background-color: rgba(64, 224, 208, 0.4);
+    font-family: $fuente-precio-producto;
+    font-size: 2.2rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
 }
 
 /*

@@ -1,14 +1,17 @@
 /*tipografia para el nombre de la pagina*/
 /*tipografia para el nav*/
+/*tipografia para nombre productos*/
+/*tipografia para precios productos*/
 /*color principal de la pagina*/
 /*color para el fondo del footer*/
 /*color para el fondo de contacto*/
+/*color header*/
 /*estilo para las cajas de los productos*/
 .cajaProductos {
   text-align: center;
   margin: 2rem;
   width: 36rem;
-  height: 35rem; }
+  height: 38rem; }
 
 body {
   margin: 0;
@@ -133,8 +136,21 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
   height: 22rem;
   margin: 1rem; }
 
+.cajaProductos:hover {
+  transform: scale(1.05); }
+
+.nombreProductos {
+  font-family: "League Spartan", sans-serif; }
+
 .precioProductos {
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  font-family: "Arimo", sans-serif;
+  text-shadow: 0 0 black; }
+
+.descuento {
+  text-decoration: line-through;
+  text-shadow: none;
+  color: #707070; }
 
 .agergarProductos {
   width: 7rem;
@@ -198,10 +214,16 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
   margin-top: 2rem; }
 
 .nosotrosTexto {
-  font-size: 2rem;
   width: 74%;
   text-align: center;
   margin-left: 5rem; }
+
+.cajaNosotrosTexto {
+  background-color: rgba(64, 224, 208, 0.4);
+  font-family: "Arimo", sans-serif;
+  font-size: 2.2rem;
+  margin: 1.5rem;
+  padding: 1.5rem; }
 
 /*
 SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
