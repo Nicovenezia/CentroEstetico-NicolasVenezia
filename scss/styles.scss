@@ -39,7 +39,7 @@ HEADER                   HEADER               HEADER
     color: $color-principal;
 }
 
-@media screen and (max-width: 768px){  
+@media screen and (max-width: 809px){  
     .cajaH3Nav{
         display: none;
     }
@@ -52,7 +52,23 @@ HEADER                   HEADER               HEADER
 }
 
 .navbar{
-    justify-content: center;
+    justify-content: end;
+}
+
+@media screen and (max-width: 409px){
+    .navbar{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .navbar{
+        justify-content: center;
+    }
+}
+
+.contenedorNav{
+    text-align: center;
 }
 
 .navbar-nav{
@@ -193,12 +209,6 @@ SECTION SUCURSALES       SECTION SUCURSALES           SECTION SUCURSALES
     align-items: center;
 }
 
-.cajaSucursales{
-    width: 45rem;
-    margin: 2rem;
-    text-align: center;
-}
-
 .nombreSucursales{
     margin-top: 0.6rem;
     font-size: 1.7rem;
@@ -255,10 +265,9 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
 }
 
 .cajaNosotrosTexto{
-    background-color: rgba(64, 224, 208, 0.4);
+    background-color: $color-caja-nosotros-texto;
     font-family: $fuente-precio-producto;
     font-size: 2.2rem;
-    margin: 1.5rem;
     padding: 1.5rem;
 }
 

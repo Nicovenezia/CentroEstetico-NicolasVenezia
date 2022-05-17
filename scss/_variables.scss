@@ -13,3 +13,16 @@ $caja-productos: (
     height: map-get($caja-productos, height);
 }
 
+/*estilo para las cajas de las sucursales*/
+$caja-sucursales: (
+    width: 45rem,
+    margin: 2rem,
+    text-align: center,
+);
+
+.cajaSucursales{
+    width: map-get($caja-sucursales, width);
+    margin: map-get($caja-sucursales, margin);
+    text-align: map-get($caja-sucursales, text-align);
+}
+

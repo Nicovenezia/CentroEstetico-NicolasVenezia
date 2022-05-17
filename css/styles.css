@@ -6,12 +6,19 @@
 /*color para el fondo del footer*/
 /*color para el fondo de contacto*/
 /*color header*/
+/*color fondo nosotros texto*/
 /*estilo para las cajas de los productos*/
 .cajaProductos {
   text-align: center;
   margin: 2rem;
   width: 36rem;
   height: 38rem; }
+
+/*estilo para las cajas de las sucursales*/
+.cajaSucursales {
+  width: 45rem;
+  margin: 2rem;
+  text-align: center; }
 
 body {
   margin: 0;
@@ -44,7 +51,7 @@ HEADER                   HEADER               HEADER
   font-size: 3rem;
   color: #052551; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 809px) {
   .cajaH3Nav {
     display: none; } }
 
@@ -54,7 +61,18 @@ HEADER                   HEADER               HEADER
   margin-top: 1.2rem; }
 
 .navbar {
-  justify-content: center; }
+  justify-content: end; }
+
+@media screen and (max-width: 409px) {
+  .navbar {
+    justify-content: center; } }
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    justify-content: center; } }
+
+.contenedorNav {
+  text-align: center; }
 
 .navbar-nav {
   align-items: center;
@@ -167,11 +185,6 @@ SECTION SUCURSALES       SECTION SUCURSALES           SECTION SUCURSALES
   justify-content: center;
   align-items: center; }
 
-.cajaSucursales {
-  width: 45rem;
-  margin: 2rem;
-  text-align: center; }
-
 .nombreSucursales {
   margin-top: 0.6rem;
   font-size: 1.7rem; }
@@ -222,7 +235,6 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
   background-color: rgba(64, 224, 208, 0.4);
   font-family: "Arimo", sans-serif;
   font-size: 2.2rem;
-  margin: 1.5rem;
   padding: 1.5rem; }
 
 /*
