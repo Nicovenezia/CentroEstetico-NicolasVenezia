@@ -170,10 +170,18 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
   text-shadow: none;
   color: #707070; }
 
-.agergarProductos {
+.agregarProductos {
   width: 7rem;
   height: 3rem;
-  font-size: 1.1rem; }
+  font-size: 1.4rem;
+  text-decoration: none;
+  background-color: #0092ff;
+  color: white;
+  padding: 0.5rem;
+  font-family: "Montserrat", sans-serif; }
+
+.agregarProductos:hover {
+  background-color: turquoise; }
 
 /*
 SECTION TIENDA        SECTION TIENDA           SECTION TIENDA 
