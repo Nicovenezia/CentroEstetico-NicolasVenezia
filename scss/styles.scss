@@ -156,6 +156,17 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
     height: 3rem;
 }
 
+.buscarTienda{
+    border: none;
+    border-bottom: 2px solid #bfbfbf;
+    background: none !important;
+}
+
+.buscarButton{
+    height: 2.2rem;
+    align-self: center;
+}
+
 .contenedorTienda{
     justify-content: center;
 }
@@ -195,6 +206,7 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
     color: white;
     padding: 0.5rem;
     font-family: $fuente-nav;
+    border-radius: 5px;
 }
 
 .agregarProductos:hover{

@@ -155,6 +155,15 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
   width: 31rem;
   height: 3rem; }
 
+.buscarTienda {
+  border: none;
+  border-bottom: 2px solid #bfbfbf;
+  background: none !important; }
+
+.buscarButton {
+  height: 2.2rem;
+  align-self: center; }
+
 .contenedorTienda {
   justify-content: center; }
 
@@ -187,7 +196,8 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
   background-color: #0092ff;
   color: white;
   padding: 0.5rem;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px; }
 
 .agregarProductos:hover {
   background-color: #40e0d0;
