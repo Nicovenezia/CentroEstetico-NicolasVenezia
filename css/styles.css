@@ -35,7 +35,8 @@ HEADER                   HEADER               HEADER
 .contenedorHeader {
   position: absolute;
   box-shadow: 0 2.5rem 4.5rem rgba(0, 0, 0, 0.414);
-  border-radius: 3rem; }
+  border-radius: 3rem;
+  z-index: 1; }
 
 .cajaHeader {
   align-items: center;
