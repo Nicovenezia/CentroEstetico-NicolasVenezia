@@ -12,13 +12,15 @@
   text-align: center;
   margin: 2rem;
   width: 36rem;
-  height: 38rem; }
+  height: 38rem;
+  border-radius: 5px; }
 
 /*estilo para las cajas de las sucursales*/
 .cajaSucursales {
   width: 45rem;
   margin: 2rem;
-  text-align: center; }
+  text-align: center;
+  border-radius: 5px; }
 
 body {
   margin: 0;
@@ -31,10 +33,17 @@ html {
 HEADER                   HEADER               HEADER 
 */
 .contenedorHeader {
+  position: absolute;
+  box-shadow: 0 2.5rem 4.5rem rgba(0, 0, 0, 0.414);
+  border-radius: 3rem; }
+
+.cajaHeader {
   align-items: center;
   justify-content: center;
   background-color: turquoise;
-  padding: 0.5rem; }
+  padding: 0.5rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem; }
 
 .cajaLogoNav {
   width: 6rem;
@@ -44,55 +53,46 @@ HEADER                   HEADER               HEADER
   height: 5rem; }
 
 .cajaValkiriaNav {
-  width: 14rem;
+  width: 13rem;
   font-family: "Archivo Black", sans-serif; }
 
 .h1ValkiriaNav {
   font-size: 3rem;
   color: #052551; }
 
-@media screen and (max-width: 809px) {
+@media screen and (max-width: 600px) {
   .cajaH3Nav {
     display: none; } }
 
 .h3Nav {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
   color: #052551;
   margin-top: 1.2rem; }
 
-.navbar {
-  justify-content: end; }
-
-@media screen and (max-width: 409px) {
-  .navbar {
-    justify-content: center; } }
-
-@media screen and (min-width: 992px) {
-  .navbar {
-    justify-content: center; } }
-
 .contenedorNav {
-  text-align: center; }
-
-.navbar-nav {
-  align-items: center;
-  font-size: 1.5rem;
-  font-family: "Montserrat", sans-serif;
-  color: black; }
-
-.navbar-collapse {
-  justify-content: end; }
+  justify-content: center; }
 
 .nav-link {
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif; }
+
+ul li.active {
+  background: #35FAD4; }
+
+li {
   transition: background-color .1s;
+  margin: 0.5rem;
+  border-radius: 2rem;
+  padding: 0.4rem 0.5rem; }
+
+li:hover {
+  background-color: #35FAD4;
   color: #052551;
-  margin: 1rem; }
+  transform: scale(1.1); }
 
-.nav-link:hover {
-  background-color: #35FAD4; }
-
-.botonNav {
-  background-color: snow; }
+.bottonNav {
+  background-color: #e2e2e2; }
 
 /*
 HEADER                     HEADER             HEADER 
@@ -101,14 +101,14 @@ HEADER                     HEADER             HEADER
 SECTION INICIO         SECTION INICIO           SECTION INICIO 
 */
 #sectionIndex {
-  background-image: url(../img/logoinicio.jpg);
+  background-image: url(../img/Depilacion-laser-2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 88rem;
+  height: 94rem;
   width: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   flex-direction: column; }
 
 .cajaDescuento {
@@ -116,7 +116,12 @@ SECTION INICIO         SECTION INICIO           SECTION INICIO
   margin-top: 10rem; }
 
 .logoImgDescuento {
-  max-width: 100%; }
+  max-width: 100%;
+  margin-top: 6rem;
+  box-shadow: 0 2.5rem 4.5rem rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30%;
+  backdrop-filter: blur(1rem); }
 
 /*
 SECTION INICIO         SECTION INICIO           SECTION INICIO 
@@ -127,7 +132,8 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
 .contenedorDepilacion {
   align-items: center;
   justify-content: center;
-  height: 15rem; }
+  height: 15rem;
+  border-radius: 1rem; }
 
 .cajaDepilacion {
   text-align: center; }
@@ -152,7 +158,8 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
 
 .imgProductos {
   height: 22rem;
-  margin: 1rem; }
+  margin: 1rem;
+  border-radius: 5px; }
 
 .cajaProductos:hover {
   transform: scale(1.05); }
@@ -161,7 +168,7 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
   font-family: "League Spartan", sans-serif; }
 
 .precioProductos {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-family: "Arimo", sans-serif;
   text-shadow: 0 0 black; }
 
@@ -181,7 +188,8 @@ SECTION TIENDA        SECTION TIENDA           SECTION TIENDA
   font-family: "Montserrat", sans-serif; }
 
 .agregarProductos:hover {
-  background-color: turquoise; }
+  background-color: #40e0d0;
+  color: #052551; }
 
 /*
 SECTION TIENDA        SECTION TIENDA           SECTION TIENDA 
@@ -211,7 +219,7 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 97rem;
+  height: 120rem;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -243,7 +251,11 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
   background-color: rgba(64, 224, 208, 0.4);
   font-family: "Arimo", sans-serif;
   font-size: 2.2rem;
-  padding: 1.5rem; }
+  padding: 1.5rem;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2.5rem 4.5rem rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 1rem; }
 
 /*
 SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
@@ -252,17 +264,19 @@ SECTION NOSOTROS        SECTION NOSOTROS           SECTION NOSOTROS
 SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
 */
 .contenedorSectionContacto {
-  height: 88rem;
+  height: 120rem;
   background: linear-gradient(191deg, #00dae4 0%, #052551 100%); }
 
 .contenedorContacto {
   justify-content: center;
   align-items: center;
-  height: 68rem; }
+  height: 80rem;
+  margin: 0px 2px; }
 
 .cajaH2Contacto {
   text-align: center;
-  color: #052551; }
+  color: #052551;
+  padding-top: 12rem; }
 
 .h2Contatco {
   font-size: 4rem;
@@ -276,21 +290,74 @@ SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
 .logoContacto {
   width: 100%; }
 
-.cajaContacto {
+.contenedorForm {
+  position: relative;
   width: 50rem;
-  height: 30rem; }
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 3rem;
+  margin: 2px;
+  box-shadow: 0 2.5rem 4.5rem rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 1rem;
+  overflow: hidden;
+  backdrop-filter: blur(1rem); }
 
-.form-label {
-  font-size: 1.5rem; }
+.cajaForm {
+  font-size: 1.5rem;
+  padding: 1rem; }
 
 .form-control {
-  font-size: 1.2rem; }
+  font-size: 1.4rem;
+  border-radius: 5px; }
 
 .btn-primary {
-  font-size: 1.3rem; }
+  font-size: 1.4rem; }
 
 /*
 SECTION CONTACTO       SECTION CONTACTO           SECTION CONTACTO
+*/
+/*
+WHATSAPP FLOTANTE      WHATSAPP FLOTANTE          WHATSAPP FLOTANTE
+*/
+.contenedorIconWhatsapp {
+  display: flex;
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  align-items: center; }
+
+@media screen and (max-width: 600px) {
+  .contenedorIconWhatsapp {
+    right: 1rem; } }
+
+.contenedorIconWhatsapp:hover {
+  filter: drop-shadow(0px 0px 10px #00ff22);
+  transform: scale(1.1); }
+
+.cajaIconWhatsapp {
+  height: 8rem; }
+
+@media screen and (max-width: 600px) {
+  .cajaIconWhatsapp {
+    height: 6rem; } }
+
+.cajaContactanosWhatsapp {
+  background-color: rgba(86, 201, 104, 0.58);
+  color: #052551;
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 1rem;
+  padding: 1rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem; }
+
+@media screen and (max-width: 600px) {
+  .cajaContactanosWhatsapp {
+    font-size: 1.4rem; } }
+
+/*
+WHATSAPP FLOTANTE      WHATSAPP FLOTANTE          WHATSAPP FLOTANTE
 */
 /*
 FOOTER                     FOOTER                 FOOTER 
@@ -298,7 +365,7 @@ FOOTER                     FOOTER                 FOOTER
 .contenedorFooter {
   align-items: center;
   justify-content: center;
-  background: linear-gradient(90deg, #00c2cb 0%, #0092ff 100%);
+  background: linear-gradient(90deg, #40e0d0 0%, #0092ff 100%);
   padding: 1rem; }
 
 .cajaLogoFooter {
@@ -314,11 +381,13 @@ FOOTER                     FOOTER                 FOOTER
   margin-bottom: 2rem; }
 
 .h3Footer {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
-  color: #052551;
-  margin-left: 0.7rem; }
+  color: #052551; }
 
 .cajaContactoFooter {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   width: 21rem; }
 
@@ -331,15 +400,18 @@ FOOTER                     FOOTER                 FOOTER
   font-family: "Archivo Black", sans-serif;
   color: #052551;
   margin-bottom: 2rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   letter-spacing: 3px; }
 
 .pContacto {
-  font-size: 1.3rem;
-  width: 18rem;
-  margin: 0% auto;
+  font-size: 1.4rem;
+  margin: 1rem;
   margin-bottom: 2rem;
   color: white; }
+
+.imgTelefono {
+  height: 2rem;
+  margin-right: 1rem; }
 
 .cajaLogoRedesFooter {
   text-align: center;
@@ -347,10 +419,12 @@ FOOTER                     FOOTER                 FOOTER
   margin-bottom: 2rem; }
 
 .logoRedes {
-  height: 5rem; }
+  height: 3rem;
+  margin: 1rem; }
 
 .logoRedes:hover {
-  filter: drop-shadow(0px 0px 10px #35FAD4); }
+  filter: drop-shadow(0px 0px 10px white);
+  transform: scale(1.1); }
 
 /*
 FOOTER                     FOOTER                 FOOTER 
