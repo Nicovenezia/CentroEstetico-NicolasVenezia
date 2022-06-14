@@ -43,8 +43,8 @@ HEADER                   HEADER               HEADER
   justify-content: center;
   background-color: turquoise;
   padding: 0.5rem;
-  border-bottom-left-radius: 3rem;
-  border-bottom-right-radius: 3rem; }
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem; }
 
 .cajaLogoNav {
   width: 6rem;
@@ -102,7 +102,7 @@ HEADER                     HEADER             HEADER
 SECTION INICIO         SECTION INICIO           SECTION INICIO 
 */
 #sectionIndex {
-  background-image: url(../img/Depilacion-laser-2.jpg);
+  background-image: url(../img/Depilacion-laser-2.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
